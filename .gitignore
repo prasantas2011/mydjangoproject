@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+develop-eggs/
+parts/
+bin/
+var/
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*~
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Django migrations (optional: keep if you want history)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+# Uncomment next line to ignore migration files themselves
+# */migrations/
+
+# Environment
+.env
+*.env
+.env.*
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
